@@ -1,6 +1,8 @@
 # GridlessSekai-Retro
 GridlessSekai Retro. A fully _offline_ (yes, you can play it without internet!) archive of the game HATSUNE MIKU: COLORFUL STAGE's JP server on the version 2.8.0 (released 2023).
 
+This project is partially AI-generated with Claude, due to my unfamiliarity with C++. Excuse the crappy code :)
+
 # Installing
 Click [HERE](https://github.com/UntitledCharts/GridlessSekai-Retro/releases/latest) for download files. You can refer here periodically for any updates!
 
@@ -27,3 +29,6 @@ Asset downloads will not change per release - there is no added content or modde
   ```
   gridlesssekairetro/assets/ios/...
   ```
+
+# Issues (Bugs / Suggestions)
+Please make a GitHub account, and open an issue here!
