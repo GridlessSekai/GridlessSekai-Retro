@@ -4,6 +4,8 @@ A fully **offline** archive of HATSUNE MIKU: COLORFUL STAGE (JP, v2.8.0 - releas
 
 This project is a culmination of ALL my knowledge. If you enjoy it, please **⭐ star** the repo.
 
+This app is a sandbox. All songs, cards, etc. are unlocked and maxed.
+
 > This project is partially AI-assisted with Claude, due to my unfamiliarity with C++. Excuse the crappy code :)
 
 # Downloads
