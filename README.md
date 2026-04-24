@@ -1,4 +1,6 @@
 # GridlessSekai Retro
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/UntitledCharts/gridlesssekai-retro/total) ![GitHub Repo stars](https://img.shields.io/github/stars/UntitledCharts/GridlessSekai-Retro)
+
 
 A fully **offline** archive of HATSUNE MIKU: COLORFUL STAGE (JP, v2.8.0 - released 2023). Yes, you can play it without internet!
 
