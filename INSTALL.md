@@ -1,4 +1,6 @@
 # Install Guide
+> [!IMPORTANT]
+> **DO NOT EXTRACT the zip.**
 
 ## Android
 
@@ -36,7 +38,8 @@ adb push assets_android.zip /sdcard/Android/data/com.sbuga.gridlesssekair/files/
    adb shell run-as com.sbuga.gridlesssekair cp /sdcard/Download/assets_android.zip ./files/assets_android.zip
    ```
 
-**DO NOT EXTRACT the zip.**
+> [!IMPORTANT]
+> **DO NOT EXTRACT the zip.**
 
 #### 3. Play
 Open the app. The game will "download" assets locally (~30GB), so make sure you have 40GB+ free.
@@ -57,7 +60,10 @@ Example YouTube searches: `sideload ios no pc`, `sideload ios impactor` (require
 - Open the **Files** app
 - Navigate to **On My iPhone** -> **GridlessSekai RETRO**
   - If you don't see it, make sure File Sharing is enabled (most sideloaders have a "Force File Sharing" option)
-- Move your downloaded `assets_ios.zip` here. **DO NOT EXTRACT**
+- Move your downloaded `assets_ios.zip` here.
+
+> [!IMPORTANT]
+> **DO NOT EXTRACT the zip.**
 
 #### 3. Play
 Open the app. The game will "download" assets locally (~30GB), so make sure you have 40GB+ free.
