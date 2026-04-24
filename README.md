@@ -70,8 +70,9 @@ Open the app. The game will "download" assets locally (~30GB), so make sure you 
 ## iOS
 
 #### 1. Install the IPA
-- **TrollStore** — just open the IPA file
-- **AltStore / Sideloadly** — connect device to PC and sideload
+**SIDELOAD!** Search on Google/YouTube, there are guides! We recommend using [Impactor (NEEDS PC)](https://github.com/claration/Impactor).
+
+Example YouTube searches: `sideload ios no pc`, `sideload ios impactor` (requires PC).
 
 **Do not open the app yet.**
 
