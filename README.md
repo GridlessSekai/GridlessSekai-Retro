@@ -1,28 +1,93 @@
-# GridlessSekai-Retro
-GridlessSekai Retro. A fully _offline_ (yes, you can play it without internet!) archive of the game HATSUNE MIKU: COLORFUL STAGE's JP server on the version 2.8.0 (released 2023).
+# GridlessSekai Retro
 
-This project is partially AI-generated with Claude, due to my unfamiliarity with C++. Excuse the crappy code :)
+A fully **offline** archive of HATSUNE MIKU: COLORFUL STAGE (JP, v2.8.0 — released 2023). Yes, you can play it without internet!
 
-# Installing
-Click [HERE](https://github.com/UntitledCharts/GridlessSekai-Retro/releases/latest) for download files. You can refer here periodically for any updates!
+This project is a culmination of ALL my knowledge. If you enjoy it, please star the repo.
 
-YOU NEED ALL ASSETS. **YOU NEED 40gb MINIMUM ON YOUR DEVICE!**
+> This project is partially AI-assisted with Claude, due to my unfamiliarity with C++. Excuse the crappy code :)
 
-Asset downloads will not change per release - there is no added content or modded content (as this is a pure archive of the game, with all resources unlocked). However, in case assets are taken down, asset download links will change here in the README.
+---
 
-### Asset Downloads
-[archive.org](https://archive.org/details/pjsk_2.8.0_assets)
+## Downloads
 
-## Where do my assets go?
+**[Latest Release](https://github.com/UntitledCharts/GridlessSekai-Retro/releases/latest)** - check back here for updates!
+
+### Assets
+
+You need **40GB+ free** on your device.
+
+Assets don't change between releases. This is a pure archive with all resources unlocked, no added or modded content.
+
+**[Download assets from archive.org](https://archive.org/details/pjsk_2.8.0_assets)**
+
+---
+
+## Install Guide
+
 ### Android
-- Open a file manager app (e.g. **ZArchiver**, **Solid Explorer**, or **MT Manager**), your preinstalled Android app usually isn't enough.
-- Navigate to `/sdcard/Android/data/com.sbuga.gridlesssekair/files/`
-- Move  `assets_android.zip` into this folder. **DO NOT EXTRACT**
-### iOS
-- Open the **Files** app on your device
-- Navigate to **On My iPhone** -> **GridlessSekai Retro** (the app name)
-  - If you don't see it, make sure File Sharing is enabled (most sideloaders have a "Force File Sharing" option)
-- Move `assets_ios.zip` here. **DO NOT EXTRACT**
 
-# Issues (Bugs / Suggestions)
-Please make a GitHub account, and open an issue here!
+#### 1. Install the APK
+- Transfer `GridlessSekaiRetro.apk` to your device and install it
+- **Open the app once**, wait for the title screen or an error, then close it (this creates the data folder)
+
+#### 2. Copy assets
+
+Download `assets_android.zip` to your device's Downloads folder, then copy it to the app's data directory using one of these methods:
+
+**Option A: ADB (PC required)**
+
+Download `assets_android.zip` to your PC, then run:
+```
+adb push assets_android.zip /sdcard/Android/data/com.sbuga.gridlesssekair/files/assets_android.zip
+```
+
+**Option B: Shizuku (no PC, no root)**
+1. Download `assets_android.zip` on your device
+2. Install [Shizuku](https://shizuku.rikka.app) and start it via Wireless Debugging ([guide](https://shizuku.rikka.app/guide/setup/#start-via-wireless-debugging))
+3. Open Shizuku's built-in terminal and run:
+   ```
+   run-as com.sbuga.gridlesssekair
+   cp /sdcard/Download/assets_android.zip ./files/assets_android.zip
+   ```
+
+**Option C: Termux (no PC, no root)**
+1. Download `assets_android.zip` on your device
+2. Install [Termux](https://f-droid.org/en/packages/com.termux/) from F-Droid
+3. Enable Wireless Debugging in Developer Options, then in Termux:
+   ```
+   pkg install android-tools
+   adb pair localhost:<port>   # use pairing code from Settings
+   adb connect localhost:<port>
+   adb shell run-as com.sbuga.gridlesssekair cp /sdcard/Download/assets_android.zip ./files/assets_android.zip
+   ```
+
+**DO NOT EXTRACT the zip.**
+
+#### 3. Play
+Open the app. The game will "download" assets locally (~30GB), so make sure you have 40GB+ free.
+
+---
+
+### iOS
+
+#### 1. Install the IPA
+- **TrollStore** — just open the IPA file
+- **AltStore / Sideloadly** — connect device to PC and sideload
+
+**Do not open the app yet.**
+
+#### 2. Move assets
+- Download the assets
+- Open the **Files** app
+- Navigate to **On My iPhone** -> **GridlessSekai RETRO**
+  - If you don't see it, make sure File Sharing is enabled (most sideloaders have a "Force File Sharing" option)
+- Move your downloaded `assets_ios.zip` here. **DO NOT EXTRACT**
+
+#### 3. Play
+Open the app. The game will "download" assets locally (~30GB), so make sure you have 40GB+ free.
+
+---
+
+## Issues
+
+Found a bug or have a suggestion? [Open an issue](https://github.com/UntitledCharts/GridlessSekai-Retro/issues)!
