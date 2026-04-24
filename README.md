@@ -1,18 +1,16 @@
 # GridlessSekai Retro
 
-A fully **offline** archive of HATSUNE MIKU: COLORFUL STAGE (JP, v2.8.0 — released 2023). Yes, you can play it without internet!
+A fully **offline** archive of HATSUNE MIKU: COLORFUL STAGE (JP, v2.8.0 - released 2023). Yes, you can play it without internet!
 
-This project is a culmination of ALL my knowledge. If you enjoy it, please star the repo.
+This project is a culmination of ALL my knowledge. If you enjoy it, please **⭐ star** the repo.
 
 > This project is partially AI-assisted with Claude, due to my unfamiliarity with C++. Excuse the crappy code :)
 
----
-
-## Downloads
+# Downloads
 
 **[Latest Release](https://github.com/UntitledCharts/GridlessSekai-Retro/releases/latest)** - check back here for updates!
 
-### Assets
+## Assets
 
 You need **40GB+ free** on your device.
 
@@ -20,11 +18,9 @@ Assets don't change between releases. This is a pure archive with all resources 
 
 **[Download assets from archive.org](https://archive.org/details/pjsk_2.8.0_assets)**
 
----
+# Install Guide
 
-## Install Guide
-
-### Android
+## Android
 
 #### 1. Install the APK
 - Transfer `GridlessSekaiRetro.apk` to your device and install it
@@ -68,7 +64,7 @@ Open the app. The game will "download" assets locally (~30GB), so make sure you 
 
 ---
 
-### iOS
+## iOS
 
 #### 1. Install the IPA
 - **TrollStore** — just open the IPA file
@@ -86,8 +82,6 @@ Open the app. The game will "download" assets locally (~30GB), so make sure you 
 #### 3. Play
 Open the app. The game will "download" assets locally (~30GB), so make sure you have 40GB+ free.
 
----
-
-## Issues
+# Issues
 
 Found a bug or have a suggestion? [Open an issue](https://github.com/UntitledCharts/GridlessSekai-Retro/issues)!
