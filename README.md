@@ -46,7 +46,7 @@ adb push assets_android.zip /sdcard/Android/data/com.sbuga.gridlesssekair/files/
 **Option B: Shizuku (no PC, no root)**
 1. Download `assets_android.zip` on your device
 2. Install [Shizuku](https://shizuku.rikka.app) and start it via Wireless Debugging ([guide](https://shizuku.rikka.app/guide/setup/#start-via-wireless-debugging))
-3. Install Zarchier (or another Shizuku-compatible file manager)
+3. Install ZArchiver (or another Shizuku-compatible file manager)
 4. Move the file from `Downloads` to `/sdcard/Android/data/com.sbuga.gridlesssekair/files`
 
 **Option C: Termux (no PC, no root)**
