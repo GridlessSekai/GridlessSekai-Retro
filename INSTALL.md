@@ -14,7 +14,7 @@ Download `assets_android.zip` to your device's Downloads folder, then copy it to
 
 NOTE: experienced users, you just need to move the `assets_android.zip` to `/sdcard/Android/data/com.sbuga.gridlesssekair/files/`. You can do this with any method you want (such as root).
 
-> [!INFO]
+> [!TIP]
 > Since `0.0.8`, the path `/sdcard/Android/obb/com.sbuga.gridlesssekair/` is also supported. Use this if needed.
 
 **Option A: ADB (PC required)**
